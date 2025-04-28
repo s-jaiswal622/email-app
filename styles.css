@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+  
+input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+  
+.container {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+  
+#emailList {
+    width: 300px;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+}
+  
+#emailDetail {
+    flex-grow: 1;
+    padding: 1rem;
+    overflow-y: auto;
+}
+  
+.email-item {
+    padding: 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+/* .email-item:hover {
+    background-color: #f1f1f1;
+} */
+
+.read {
+    background-color: #f5f5f5;
+}
+
+.selected {
+    background-color: #f8e71c;
+}
